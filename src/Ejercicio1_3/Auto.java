@@ -24,7 +24,7 @@ package Ejercicio1_3;public class Auto {
         this.color = color;
         this.automatico = automatico;
     }
-
+//get and set
     public String getMarca() {
         return marca;
     }
@@ -104,6 +104,8 @@ package Ejercicio1_3;public class Auto {
     public void setAutomatico(boolean automatico) {
         this.automatico = automatico;
     }
+
+
 
     void acelerar(int aceleraNum){
         if(velocidadActual+aceleraNum > velocidadMax){
